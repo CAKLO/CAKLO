@@ -1,0 +1,53 @@
+<!--==================== Slider  ====================-->
+
+        <div class="baxi">
+
+            <div class="container-slider-img">
+
+                <input type="radio" id="1" name="image-slide" hidden/>
+                <input type="radio" id="2" name="image-slide" hidden/>
+                <input type="radio" id="3" name="image-slide" hidden/>
+
+                <div class="slides">
+                    <div class="item-slide">
+
+                        <img class="imgs" src="./assets/img/slider-img/Tokyo-revenger.jpg" alt="">
+                        <div class="descripciones-naim"><a class="ali" href=""> Tokyo Revengers</a></div>
+                        <p class="descripciones-naim-1"> Temporada 1 <br> 24 capitulos<br> Estado: Finalizado</p>
+
+
+                    </div>
+
+                    <div class="item-slide">
+                        <img class="imgs" src="./assets/img/slider-img/spyxfamiliy.png" alt="">
+                        <div class="descripciones-naim"><a class="ali" href=""> Spy x Family</a></div>
+                        <p class="descripciones-naim-1"> Temporada 1 <br> Estado: En Emision</p>
+                    </div>
+
+                    <div class="item-slide">
+                        <img class="imgs" src="./assets/img/slider-img/date-alive.png" alt="">
+                        <div class="descripciones-naim"><a class="ali" href=""> Date Alive</a></div>
+                        <p class="descripciones-naim-1"> Temporadas: 4 <br> 12 capitulos C/d<br> Estado: Finalizado</p>
+                    </div>
+
+                </div>
+
+                <div class="pagination">
+                    <label class="pagination-item" for="1">
+                  <img  class="imgs" src="./assets/img/slider-img/Tokyo-revenger.jpg" alt="">
+                </label>
+
+                    <label class="pagination-item" for="2">
+                  <img class="imgs"  src="./assets/img/slider-img/spyxfamiliy.png" alt="">
+                </label>
+
+                    <label class="pagination-item" for="3">
+                  <img  class="imgs" src="./assets/img/slider-img/date-alive.png" alt="">
+                </label>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--==================== Slider end  ====================-->
