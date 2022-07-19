@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+.contenedor-span {
+    text-align: center;
+    row-gap: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-de-let .spant {
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Fredoka One" sans-serif;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.contenedor-de-let .spant::before {
+    content: var(--l);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+}
+
+.contenedor-de-let .spant::after {
+    content: var(--l);
+    position: absolute;
+    top: 80%;
+    left: 0;
+    filter: blur(30px);
+    transform: rotate(50deg);
+}
+
+.contenedor-de-let .spant:hover {
+    filter: contrast(250%);
+}
+
+.contenedor-de-let .spant:nth-child(1) {
+    color: #00bef8;
+}
+
+.contenedor-de-let .spant:nth-child(2) {
+    color: #ff0697;
+}
+
+.contenedor-de-let .spant:nth-child(3) {
+    color: #ff4d00;
+}
+
+.contenedor-de-let .spant:nth-child(4) {
+    color: #ffe600;
+}
+
+.contenedor-de-let .spant:nth-child(5) {
+    color: #bb00ff;
+}

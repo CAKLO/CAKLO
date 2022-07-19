@@ -1,0 +1,251 @@
+/*solo de ejemplo*/
+
+.fimg {
+    width: 150px;
+    height: 150px;
+    left: 350px;
+    top: 54%;
+    position: absolute;
+    animation: t1-img 8s ease infinite;
+    background: linear-gradient(to left, #0ea1e6, #5f1ec7);
+    background-image: url("../img/pngs-chibi/inosuke-removebg.png");
+    background-size: cover;
+}
+
+@keyframes t1-img {
+    0% {
+        transform: rotate(15deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(15deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(15deg) translateY(0px);
+    }
+}
+
+.fimg2 {
+    height: 160px;
+    width: 150px;
+    margin-top: 375px;
+    right: 220px;
+    position: absolute;
+    background: linear-gradient(to left, #ee8105, #c7371e);
+    animation: t2-img 8s ease infinite;
+    background: linear-gradient(to left, #0ea1e6, #5f1ec7);
+    background-image: url("../img/pngs-chibi/charlote-removebg-preview\ \(1\).png");
+    background-size: cover;
+}
+
+@keyframes t2-img {
+    0% {
+        transform: rotate(25deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(25deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(25deg) translateY(0px);
+    }
+}
+
+.fimg3 {
+    height: 210px;
+    width: 148px;
+    margin-top: 18px;
+    left: -150px;
+    position: absolute;
+    background: linear-gradient(to left, #ee8105, #c7371e);
+    animation: t3-img 8s ease infinite;
+    background: linear-gradient(to left, #0ea1e6, #5f1ec7);
+    background-image: url("../img/pngs-chibi/kakashi.png");
+    background-size: cover;
+}
+
+@keyframes t3-img {
+    0% {
+        transform: rotate(65deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(65deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(65deg) translateY(0px);
+    }
+}
+
+.fimg4 {
+    height: 160px;
+    width: 160px;
+    margin-top: 410px;
+    left: -110px;
+    border-radius: 40px;
+    position: absolute;
+    background: linear-gradient(to left, #ee8105, #c7371e);
+    animation: t4-img 8s ease infinite;
+    background: linear-gradient(to left, #0ea1e6, #5f1ec7);
+    background-image: url("../img/pngs-chibi/itachi.png");
+    background-size: cover;
+}
+
+@keyframes t4-img {
+    0% {
+        transform: rotate(5deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(5deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(5deg) translateY(0px);
+    }
+}
+
+.fimg5 {
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+    left: 270px;
+    border-radius: 40px;
+    position: absolute;
+    background: linear-gradient(to left, #ee8105, #c7371e);
+    animation: t5-img 8s ease infinite;
+    background: linear-gradient(to left, #0ea1e6, #5f1ec7);
+    background-image: url("../img/pngs-chibi/charlote.jpg");
+    background-size: cover;
+}
+
+@keyframes t5-img {
+    0% {
+        transform: rotate(25deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(-15deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(25deg) translateY(0px);
+    }
+}
+
+.container__background-triangle {
+    max-width: 1200px;
+    height: 600px;
+    margin: auto;
+    position: fixed;
+    z-index: -1;
+    top: -180px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.triangle {
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: absolute;
+}
+
+.triangle1 {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to left, #0ea1e6, #1e67c7);
+    right: 100px;
+    top: 100px;
+    animation: t1 8s ease infinite;
+}
+
+.triangle2 {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(to left, #ee8105, #c7371e);
+    top: 350px;
+    animation: t2 9s ease infinite;
+}
+
+.triangle3 {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to left, #1b8fc5, #df0f8f);
+    left: 200px;
+    animation: t3 7s ease infinite;
+}
+
+.triangle4 {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(to left, #1b8fc5, #df0f8f);
+    right: 150px;
+    top: 500px;
+    animation: t4 7s ease infinite;
+}
+
+.triangle5 {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(to left, #1b8fc5, #df0f8f);
+    left: 250px;
+    top: 570px;
+    animation: t4 7s ease infinite;
+}
+
+@keyframes t1 {
+    0% {
+        transform: rotate(45deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(45deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(45deg) translateY(0px);
+    }
+}
+
+@keyframes t2 {
+    0% {
+        transform: rotate(65deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(65deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(65deg) translateY(0px);
+    }
+}
+
+@keyframes t3 {
+    0% {
+        transform: rotate(65deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(65deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(65deg) translateY(0px);
+    }
+}
+
+@keyframes t4 {
+    0% {
+        transform: rotate(65deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(65deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(65deg) translateY(0px);
+    }
+}
+
+@keyframes t5 {
+    0% {
+        transform: rotate(65deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(65deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(65deg) translateY(0px);
+    }
+}
+
+
+/* eso creo*/

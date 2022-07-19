@@ -1,0 +1,88 @@
+.container-list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ul-div {
+    margin: 0 0 40px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.img-div {
+    display: block;
+}
+
+.ul-div .ul-div-slide {
+    list-style: none;
+    margin: 0 0 40px;
+}
+
+.ul-div .ul-div-slide .slide-div {
+    position: absolute;
+    width: 56%;
+    height: 76%;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s;
+    transform: rotateY(90deg);
+    transition-duration: left;
+}
+
+.ul-div .ul-div-slide .input-slide[type="radio"] {
+    position: relative;
+    z-index: 1;
+    height: 20px;
+    width: 20px;
+}
+
+.ul-div .ul-div-slide .input-slide[type="radio"]:checked~.slide-div {
+    transition: transform 0.5s;
+    transform: rotateY(0deg);
+    transition-duration: right;
+}
+
+.ul-div .ul-div-slide .slide-div .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, .95);
+    padding: 40px;
+}
+
+.ul-div .ul-div-slide .slide-div .content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 42px;
+}
+
+.ul-div .ul-div-slide .slide .img-div {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ul-div .ul-div-slide .input-slide[type="radio"]:checked~.slide-div .img-div {
+    animation: animate 40s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
